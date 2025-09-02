@@ -1,58 +1,40 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="reset.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <h1>純矢の自己紹介</h1>
-    <nav>
-      <a href="#home">ホーム</a>
-      <a href="#skills">スキル</a>
-      <a href="#portfolio">ポートフォリオ</a>
-      <a href="#contact">お問い合わせ</a>
-    </nav>
-  </header>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  scroll-behavior: smooth;
+}
 
-  <main>
-    <section id="home">
-      <h2>ようこそ！</h2>
-      <p>業務効率化・自動化・AI活用に情熱を注ぐ探究者、純矢です。</p>
-      <p>このサイトでは、私のスキル・成果物・活動内容をご紹介します。</p>
-    </section>
+header {
+  background-color: #004080;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
 
-    <section id="skills">
-      <h2>スキル紹介</h2>
-      <ul>
-        <li>Excel/VBAによる業務自動化・財務分析</li>
-        <li>AIツール活用・Web制作（HTML/CSS）</li>
-        <li>クラウドワークス収益最大化モデル設計</li>
-        <li>抽象理論の実務応用・構造化思考</li>
-      </ul>
-    </section>
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+}
 
-    <section id="portfolio">
-      <h2>ポートフォリオ</h2>
-      <ul>
-        <li><a href="https://junya.github.io">GitHub Pages 自己紹介サイト</a></li>
-        <li><a href="#">Canvaで作成したプレゼン資料</a></li>
-        <li><a href="#">SEO最適化されたWeb構造設計</a></li>
-      </ul>
-    </section>
+main {
+  padding: 2em;
+}
 
-    <section id="contact">
-      <h2>お問い合わせ</h2>
-      <p>メール: junya@example.com</p>
-      <p>Twitter: <a href="https://twitter.com/junya">純矢のTwitter</a></p>
-      <p>GitHub: <a href="https://github.com/junya">GitHubプロフィール</a></p>
-    </section>
-  </main>
+section {
+  margin-bottom: 4em;
+}
 
-  <footer>
-    <p>&copy; 2025 Junya</p>
-  </footer>
-</body>
-</html>
+h1, h2 {
+  color: #004080;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
